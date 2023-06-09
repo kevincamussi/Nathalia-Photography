@@ -1,0 +1,192 @@
+:root{
+ --white:rgb(255,255,255);
+ --grey:rgba(255, 255, 255, 0.55);
+ --black:rgb(0, 0, 0);
+ --light-grey:rgb(208, 206, 206);
+ --dark-grey:rgb(136, 135, 135, 0.3);
+ --black-shadow: rgb(0, 0, 0, 0.5);
+ --green: rgb(13, 255, 13);
+ --dark-green:rgb(24, 167, 24);
+}
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background-color: var(--black);
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+
+/** Fontes **/
+.font{
+  font-family: 'Itim', cursive;
+  font-family: 'Monsieur La Doulaise', cursive;
+  font-family: 'Tangerine', cursive;
+}
+
+.font2{
+  font-family: 'Itim', cursive;
+  font-family: 'Monsieur La Doulaise', cursive;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+/**** Navbar  *****/
+header{
+  margin-bottom: 1rem;
+} 
+
+#navbarNav{
+  justify-content: right;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color:var(--grey);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
+  color: var(--white);
+}
+
+.navbar-dark .navbar-brand {
+ color:var(--grey);
+  font-size: 2rem;  
+}
+
+
+
+
+
+/**** Home  ****/
+
+
+.home{
+  padding:7%;
+  justify-content: center;
+  text-align: center;
+  box-shadow: inset 1000px 1000px var(--black-shadow);
+  background:url("/img/bg.jpg" ) no-repeat top center;
+  background-size: cover;
+
+}
+ 
+.home h1{
+  
+  color:var(--light-grey);
+  font-size:5rem ;
+  letter-spacing: 2px;
+  margin: 4rem;
+ 
+}
+
+
+/**** Portfolio ****/
+
+#portfolio {
+  padding: 1rem;
+  text-align: center;
+  margin-top: 6rem;
+
+}
+
+
+
+.img-portfolio{
+  border: 1px solid var(--dark-grey);
+  cursor: zoom-in;
+  width: 40%;
+  border-radius: 20px;
+  margin: .5rem;
+  transition-duration: .4s;
+ }
+
+.img-portfolio:hover{
+  transform: scale(1.03);
+  transition-duration: .4s;
+  
+ } 
+
+#scroll{
+  cursor: pointer;
+  margin-top: 2rem;
+  background-color: var(--black);
+  color: var(--light-grey);
+} 
+
+#scroll:hover{
+  color: var(--dark-grey);
+}
+
+/** Sobre **/
+
+#sobre{
+  text-align: center;
+  margin-bottom: 3rem;
+  margin-top: 1rem;
+  background-color: var(--white);
+  padding: 3.5rem;
+  border-radius: 20px;
+  width: 90%;
+}
+
+hr{
+  margin-top: 3rem;
+}
+
+/**** Contato ****/
+#contato{
+  background-color: var(--white);
+  text-align: center;
+  border-radius: 20px;
+  padding: 3rem;
+  margin-top: 1rem;
+  width: 90%;
+  height: 30rem;
+}
+
+#contato h1{
+  margin-bottom: 7rem;
+  font-size:3rem;
+}
+
+#contato a{
+  margin:3%;
+  align-items: center;
+}
+
+.fa-whatsapp{
+  color:var(--green);
+}
+
+.fa-whatsapp:hover{
+  color: var(--dark-green);
+}
+
+.fa-envelope{
+  color: var(--black);
+}
+
+.fa-envelope:hover{
+  color: var(--light-grey);
+}
+
+
+/**** Footer ****/
+footer{
+  margin:2rem auto;
+  border-top: 1px solid var(--dark-grey) ;
+  text-align: center;
+  color:var(--white);
+ 
+}
+
+footer i{
+  margin-top:1.3rem;
+  margin-bottom: 1.5rem;
+}
