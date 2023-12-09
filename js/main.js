@@ -2,9 +2,9 @@ document.getElementById('portfolio').onload=exibirImagem();
 
 /*****      Exibe as imagens no site   - Display images in website    *****/
 
-const numeroFotos = 89;
-
 function exibirImagem(){
+
+  const numeroFotos = 89;
   
   for(i=1; i<numeroFotos ; i++){
     var img = document.createElement('img');
