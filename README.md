@@ -21,4 +21,4 @@ Este é um projeto de site para um portfólio fotográfico, desenvolvido utiliza
 
 **JavaScript:** Adiciona interatividade e funcionalidades dinâmicas ao site.
 
-**O projeto está disponível através do link:** henathalia-photography.vercel.app
+**O projeto está disponível através do link:** https://nathalia-photography.vercel.app/
